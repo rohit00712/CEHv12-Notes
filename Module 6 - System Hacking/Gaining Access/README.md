@@ -28,16 +28,15 @@ Microsoft has upgraded its `default authentication protocol` to Kerberos which p
 
 ### 1.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/1.PNG)
 
 ### 2.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/2.PNG)
 
 ### 3.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/3.PNG
 --------------------------------------------------
 
 ## Password Cracking
@@ -50,25 +49,25 @@ Microsoft has upgraded its `default authentication protocol` to Kerberos which p
 
 ### 4.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/4.PNG)
 
 ### Non-Electronic Attacks
 
 ### 5.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/5.PNG)
 
 ### Active Online Attacks
 
 ### 6.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/6.PNG)
 
 ### Active Online Attacks: Password Spraying Attack and Mask Attack
 
 ### 7.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/7.PNG)
 
 #### CrackMapExec
 
@@ -87,19 +86,19 @@ spraying process:
 
 ### 8.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/8.PNG)
 
 ### Default Password
 
 ### 9.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/9.PNG)
 
 ### Active Online Attacks: Trojans/Spyware/Keyloggers
 
 ### 10.png
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/10.PNG)
 
 ### Active Online Attacks: Hash Injection/Pass-the-Hash (PtH) Attack
 
