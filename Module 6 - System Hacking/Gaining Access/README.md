@@ -10,7 +10,7 @@
 
 ## Gaining Access
 
-### Microsoft Authentication
+## Microsoft Authentication
 
 * **Security Accounts Manager (SAM) Database**
 
@@ -26,17 +26,11 @@ These protocols store the user's password in the `SAM database` using different 
 
 Microsoft has upgraded its `default authentication protocol` to Kerberos which provides a stronger authentication for client/server applications than NTLM
 
-### 1.png
-
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/1.PNG)
-
-### 2.png
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/2.PNG)
 
-### 3.png
-
-![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/3.PNG
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/3.PNG)
 --------------------------------------------------
 
 ## Password Cracking
@@ -45,31 +39,23 @@ Microsoft has upgraded its `default authentication protocol` to Kerberos which p
 
 * Attackers use password cracking techniques to gain unauthorized access to vulnerable systems
 
-### Types of Password Attacks
-
-### 4.png
+## Types of Password Attacks
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/4.PNG)
 
-### Non-Electronic Attacks
-
-### 5.png
+## Non-Electronic Attacks
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/5.PNG)
 
-### Active Online Attacks
-
-### 6.png
+## Active Online Attacks
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/6.PNG)
 
-### Active Online Attacks: Password Spraying Attack and Mask Attack
-
-### 7.png
+## Active Online Attacks: Password Spraying Attack and Mask Attack
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/7.PNG)
 
-#### CrackMapExec
+### CrackMapExec
 
 `crackmapexec smb <IP> —u users . txt —p passwords . txt`
 
@@ -78,19 +64,15 @@ spraying process:
 
 `spray.sh -smb <targetIP> <usernameList> <AttemptsPerLockoutPeriod> <LockoutPeriodInMinutes> <DOMAIN>`
 
-#### Hashcat
+### Hashcat
 
 `hashcat -a 3 -m 0 md5_hashes.txt ?l?l?l?d?d?d` 
 
-### Active Online Attacks: Password Guessing
-
-### 8.png
+## Active Online Attacks: Password Guessing
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/8.PNG)
 
-### Default Password
-
-### 9.png
+## Default Password
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/9.PNG)
 
@@ -100,143 +82,101 @@ spraying process:
 
 ![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/10.PNG)
 
-### Active Online Attacks: Hash Injection/Pass-the-Hash (PtH) Attack
+## Active Online Attacks: Hash Injection/Pass-the-Hash (PtH) Attack
 
-### 11.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/11.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### Active Online Attacks: LLMNR/NBT-NS Poisoning
+## Active Online Attacks: LLMNR/NBT-NS Poisoning
 
 LLMNR is a protocol used to resolve the names of neighboring computers on a local network.
 
 NBT-NS is a protocol used by Windows to resolve NetBIOS names to IP addresses.
 
-### 12.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/12.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Active Online Attacks: Cracking Kerberos Password
 
-### Active Online Attacks: Cracking Kerberos Password
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/13.PNG)
 
-### 13.png
+## Active Online Attacks: Pass the Ticket Attack
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/14.PNG)
 
-### Active Online Attacks: Pass the Ticket Attack
+## Other Active Online Attacks
 
-### 14.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### Other Active Online Attacks
-
-### 15.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/15.PNG)
 
 -------------------------------------------------------
 
 ## Passive Online Attacks
 
-### Passive Online Attacks: Wire Sniffing
+## Passive Online Attacks: Wire Sniffing
 
-### 16.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/16.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Passive Online Attacks: Man-in-the-Middle/Manipulator-in-the-Middle and Replay Attacks
 
-### Passive Online Attacks: Man-in-the-Middle/Manipulator-in-the-Middle and Replay Attacks
-
-### 17.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/17.PNG)
 
 -------------------------------------------------------
 
-### Offline Attacks: Rainbow Table Attack
+## Offline Attacks: Rainbow Table Attack
 
-### 18.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/18.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Offline Attacks: Distributed Network Attack
 
-### Offline Attacks: Distributed Network Attack
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/19.PNG)
 
-### 19.png
+## Password Recovery Tools
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/20.PNG)
 
-### Password Recovery Tools
+## Tools to Extract the Password Hashes
 
-### 20.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/21.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Password Cracking Using Domain Password Audit Tool (DPAT)
 
-### Tools to Extract the Password Hashes
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/22.PNG)
 
-### 21.png
+## Password-Cracking Tools: LOphtCrack and ophcrack
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/23.PNG)
 
-### Password Cracking Using Domain Password Audit Tool (DPAT)
+## Password-Cracking Tools
 
-### 22.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/24.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Password salting
 
-### Password-Cracking Tools: LOphtCrack and ophcrack
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/25.PNG)
 
-### 23.png
+## How to Defend against Password Cracking
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/26.PNG)
 
-### Password-Cracking Tools
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/27.PNG) 
 
-### 24.png
+## How to Defend against LLMNR/NBT-NS Poisoning
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/28.PNG)
 
-### Password salting
+## Tools to Detect LLMNR/NBT-NS Poisoning
 
-### 25.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### How to Defend against Password Cracking
-
-### 26.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### 27.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here) 
-
-### How to Defend against LLMNR/NBT-NS Poisoning
-
-### 28.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### Tools to Detect LLMNR/NBT-NS Poisoning
-
-### 29.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/29.PNG)
 
 * got-responder
 
 -------------------------------------------------------
 
-### Vulnerability Exploitation
+## Vulnerability Exploitation
 
-### 30.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/30.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Exploit Sites
 
-### Exploit Sites
-
-### 31.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/31.PNG)
 
 * [Exploit Database](https://exploit-db.com) 
 
@@ -250,70 +190,50 @@ NBT-NS is a protocol used by Windows to resolve NetBIOS names to IP addresses.
 
 ## Buffer Overflow
 
-### 32.png
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/32.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Types of Buffer Overflow: Stack-Based Buffer Overflow
 
-### Types of Buffer Overflow: Stack-Based Buffer Overflow
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/33.PNG)
 
-### 33.png
+## Types of Buffer Overflow: Heap-Based Buffer Overflow
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### Types of Buffer Overflow: Heap-Based Buffer Overflow
-
-### 34.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/34.PNG)
 
 -------------------------------------------------------
 
 ## Return-Oriented Programming (ROP) Attack
 
-### 35.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/35.PNG)
 
 ## Exploit Chaining
 
-### 36.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/36.PNG)
 
 ## Active Directory Enumeration Using PowerView
 
 Before performing enumeration using PowerView, attackers disable the security monitoring option using the following command:
 `Set—MpPreference —DisableRea1timeMonitoring $true`
 
-### 37.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/37.PNG)
 
 ## Domain Mapping and Exploitation with Bloodhound
 
-### 38.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/38.PNG)
 
 ## Identifying Insecurities Using GhostPack Seatbelt
 
 GhostPack contains different toolsets of C# implementations of PowerShell functionality. It includes Seatbelt, SharpUp, SharpRoast, SharpDump, SafetyKatz, and SharpWMl. 
 
-### 39.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/39.PNG)
 
 ## Buffer Overflow Detection Tools
 
-### 40.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/40.PNG)
 
 ## Defending against Buffer Overflows
 
-### 41.png
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Gaining%20Access/images/41.PNG)
 
 --------------------------------------------------------------------------------------------------------------
 
