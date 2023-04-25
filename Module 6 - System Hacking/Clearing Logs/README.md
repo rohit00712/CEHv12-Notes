@@ -63,17 +63,13 @@ computer.)
 
 ## Manually Clearing Event Logs
 
-### 1.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/1.PNG)
 
 -------------------------------------------------------
 
 ## Ways to Clear Online Tracks
 
-### 2.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/2.PNG)
 
 -------------------------------------------------------
 
@@ -105,21 +101,15 @@ computer.)
 
 ## Covering Tracks on a Network
 
-### 3.PNG
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/3.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### 4.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/4.PNG)
 
 -------------------------------------------------------
 
 ## Covering Tracks on an OS
 
-### 5.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/5.PNG)
 
 ### Windows
 
@@ -147,9 +137,7 @@ or
 
 ## Delete Files using Cipher.exe
 
-### 6.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/6.PNG)
 
 When an attacker creates and encrypts a malicious text file, at the time of the encryption
 process, a backup file is created. Therefore, if the encryption process is interrupted, the backup
@@ -182,9 +170,7 @@ Windows Hibernation is a power-saving state in which the contents of a computer'
 The hibernate file (Hiberfil.sys) is a hidden system file located in the root directory where the OS is installed. This file contains information regarding the system RAM stored on a hard disk at specific times (when the user selects to hibernate his/her
 system). 
 
-### 7.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/7.PNG)
 
 or
 
@@ -194,33 +180,21 @@ or
 
 Virtual memory, also called a paging file, is a special file in Windows that is used as a compensation when RAM (physical memory) falls short of usable space. For example, if an attacker has an encrypted file and wants to read it, he/she must first decrypt it. This decrypted file stays in the paging file, even after the attacker logs out of the system. Moreover, some third-party programs can be used to store plaintext passwords and other sensitive information temporarily. Therefore, disabling paging in Windows is a crucial step toward covering tracks.
 
-### 14.PNG
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/14.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/15.PNG)
 
-### 15.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### 16.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/16.PNG)
 
 * Disable System Restore Points
 
 System restore points contain information about hidden data and previously deleted files. This poses a risk for attackers as the deleted files can be recovered from previous restore points.
 
-### 17.PNG
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/17.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/18.PNG)
 
-### 18.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### 19.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/19.PNG)
 
 * Disable Windows Thumbnail Cache
 
@@ -228,9 +202,7 @@ If an attacker has used an image file to hide a malicious file and later
 deleted it, a thumbnail of this image is stored inside the thumbs.db file, which reveals
 that the deleted file was previously used on the system.
 
-### 20.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/20.PNG)
 
 * Disable Windows Prefetch Feature
 
@@ -238,9 +210,7 @@ Prefetch is a Windows feature that stores specific data about the applications t
 
 For example, if an attacker has installed a malicious application and then uninstalled it, a copy of that application will be stored in the Prefetch file. These Prefetch files can be used by security personnel to recover deleted files during the investigation of a security incident.
 
-### 21.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/21.PNG)
 
 -------------------------------------------------------
 
@@ -270,17 +240,11 @@ Run the following command to hide the account when it is not required:
 
 * Hiding User Accounts
 
-### 9.PNG
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/9.PNG)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/10.PNG)
 
-### 10.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### 11.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/11.PNG)
 
 -------------------------------------------------------
 
@@ -298,26 +262,20 @@ Run the following command to hide the account when it is not required:
 
 * Hiding Files and Folders
 
-### 12.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/12.PNG)
 
 -------------------------------------------------------
 
 ## Track-Covering Tools
 
-### 8.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/8.PNG)
 
 
 -------------------------------------------------------
 
 ## Defending against Covering Tracks
 
-### 13.PNG
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rohit00712/CEHv12-Notes/blob/main/Module%206%20-%20System%20Hacking/Clearing%20Logs/images/13.PNG)
 
 -------------------------------------------------------
 
